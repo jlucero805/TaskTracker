@@ -52,7 +52,7 @@ class Time {
        if (this.minutes >= 10) {
            return String(this.minutes);
         }
-        return "0" + String(this.minutes);
+        return "0" + this.minutes;
     }
 
     getHours() /*string*/ {

@@ -13,15 +13,29 @@
 
         <div class="titleWrapper"><p class="title">Task Tracker</p></div>
 
-        <div class="controls"></div>
+        <div class="controls">
+            <button class="play" id="play">play</button>
+            <button class="pause" id="pause">pause</button>
+            <button class="newTask" id="newTask">+</button>
+        </div>
 
         <div class="tasks" id="taskContainer">
+             <!--
             <div class="task">
+               
+                <input type="text" class="taskName">
+                <p class="seconds">00</p>
+                <p id="separator1">:</p>
+                <p class="minutes">00</p>
+                <p id="separator2">:</p>
+                <p class="hours">00</p>
+                <button class="taskDelete">-</button>
                 
             </div>
-            <div class="task"></div>
-            <div class="task"></div>
+            -->
         </div>
+
+
 
     </div>
 
@@ -29,6 +43,8 @@
     <script src="Time.js"></script>
     <script src="Stopwatch.js"></script>
     <script src="Task.js"></script>
+    <script src="TaskManager.js"></script>
+    <script src="Controls.js"></script>
     <script src="TaskTracker.js"></script>
     <!--/Scripts-->
 </body>

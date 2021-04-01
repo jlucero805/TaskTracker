@@ -3,7 +3,6 @@ class Stopwatch {
 
     constructor() {
         this.time = new Time();
-        this.stopwatchInterval = null;
     }
 
     incrementTime() {
@@ -13,4 +12,6 @@ class Stopwatch {
         this.time.increment();
         console.log(this.time.getSeconds());
     }
+
+
 }

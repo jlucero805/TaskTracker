@@ -44,6 +44,53 @@
     top: 40px;
 }
 
+    .play {
+        position: absolute;
+
+        border: none;
+        border: 1px solid black;
+
+        min-width: 58px;
+        max-width: 58px;
+        min-height: 38px;
+        max-height: 38px;
+
+        top: 1px;
+        left: 1px;
+    }
+
+    .pause {
+        position: absolute;
+
+        border: none;
+        border: 1px solid black;
+
+        min-width: 58px;
+        max-width: 58px;
+        min-height: 38px;
+        max-height: 38px;
+
+        top: 1px;
+        left: 60px; 
+    }
+
+    .newTask {
+        position: absolute;
+
+        border: none;
+        border: 1px solid black;
+
+        min-width: 58px;
+        max-width: 58px;
+        min-height: 38px;
+        max-height: 38px;
+
+        top: 1px;
+        left: 120px;
+
+        font-size: xx-large;
+    }
+
 .tasks {
     position: relative;
 
@@ -52,12 +99,14 @@
     min-width: 400px;
     max-width: 400px;
 
-    top: 120px;
+    top: 80px;
 
     background-color: rgba(255, 255, 255, 0);
 }
 
 .task {
+    position: relative;
+
     border-bottom: .5px solid black;
     border-top: .5px solid black;
 
@@ -65,7 +114,67 @@
     max-width: 400px;
     min-height: 40px;
     max-height: 40px;
-
-
 }
+
+    .taskName {
+        position: absolute;
+
+        top: 9px;
+        left: 5px;
+
+        min-width: 220px;
+        max-width: 220px;
+    }
+
+    .seconds {
+        position: absolute;
+
+        top: -5px;
+        left: 320px;
+    }
+
+    #separator1 {
+        position: absolute;
+
+        top: -5px;
+        left: 310px;
+    }
+
+    .minutes {
+        position: absolute;
+
+        top: -5px;
+        left: 290px;
+    }
+
+    #separator2 {
+        position: absolute;
+
+        top: -5px;
+        left: 280px;
+    }
+
+    .hours {
+        position: absolute;
+
+        top: -5px;
+        left: 260px;
+    }
+
+    .taskDelete {
+        position: absolute;
+
+        border: none;
+        border: 1px solid black;
+
+        min-width: 38px;
+        max-width: 38px;
+        min-height: 38px;
+        max-height: 38px;
+
+        top: 1px;
+        left: 360px;
+
+        font-size: xx-large;
+    }
 
