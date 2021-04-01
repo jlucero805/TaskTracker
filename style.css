@@ -1,0 +1,71 @@
+.main {
+    position: relative;
+
+    border: 1px solid black;
+    
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 800px;
+    max-height: 999999px;
+
+    margin: auto;
+}
+
+.titleWrapper {
+    position: absolute;
+
+    border-bottom: 2px solid black;
+
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.title {
+    position: absolute;
+
+    font-size: 40px;
+
+    top: -40px;
+    left: 100px;
+}
+
+.controls {
+    position: absolute;
+
+    border-bottom: 1px solid black;
+
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 40px;
+    max-height: 40px;
+
+    top: 40px;
+}
+
+.tasks {
+    position: relative;
+
+    border-bottom: 1px solid black;
+
+    min-width: 400px;
+    max-width: 400px;
+
+    top: 120px;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.task {
+    border-bottom: .5px solid black;
+    border-top: .5px solid black;
+
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 40px;
+    max-height: 40px;
+
+
+}
+
